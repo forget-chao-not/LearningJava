@@ -1,5 +1,5 @@
 /*
-	´òÓ¡¿ÕĞÄ½ğ×ÖËş
+	æ‰“å°ç©ºå¿ƒé‡‘å­—å¡”
 */
 
 import java.io.*;
@@ -11,21 +11,21 @@ public class Test
 		InputStreamReader isr=new InputStreamReader(System.in);
 		BufferedReader br=new BufferedReader(isr);
 			
-		System.out.println("ÇëÊäÈë½ğ×ÖËşµÄ²ãÊı£º");
+		System.out.println("è¯·è¾“å…¥é‡‘å­—å¡”çš„å±‚æ•°ï¼š");
 		String ss=br.readLine();
 			
-		int layer=Integer.parseInt(ss);//½ğ×ÖËş²ãÊı
+		int layer=Integer.parseInt(ss);//é‡‘å­—å¡”å±‚æ•°
 		
 		
 		for(int i=0;i<layer;i++)
 		{
-			//´òÓ¡¿Õ¸ñ
+			//æ‰“å°ç©ºæ ¼
 			for(int j=0;j<layer-i;j++)
 			{
 				System.out.print(" ");
 			}
 			
-			//´òÓ¡*ºÅ
+			//æ‰“å°*å·
 			for(int k=0;k<2*i+1;k++)
 			{
 				if(i==0||i==layer-1)
@@ -45,7 +45,7 @@ public class Test
 				}
 			}
 			
-			//´òÓ¡»»ĞĞ
+			//æ‰“å°æ¢è¡Œ
 			System.out.print("\n");
 		}
 	}
